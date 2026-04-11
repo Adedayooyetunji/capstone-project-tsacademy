@@ -21,6 +21,16 @@ The goal is to build a highly available, secure, scalable cluster with automated
     kOps-managed Kubernetes cluster with private topology and multi-AZ deployment
     AWS RDS PostgreSQL database for the application data store
     Ingress-based TLS routing via cert-manager and NGINX
+
+    # Learning Objectives Covered
+
+    Cloud architecture design across multiple Availability Zones
+    Infrastructure as Code with Terraform and remote backend state
+    Kubernetes operations using kOps and cluster validation
+    Cloud-native security via private networking, IAM, and secret management
+    DNS delegation and SSL termination with Route53 and cert-manager
+    Configuration management support via Ansible scaffolding
+
     AWS Secrets Store CSI driver integration for Kubernetes secrets
     Automated deployment and teardown scripts in scripts/
 

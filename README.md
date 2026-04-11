@@ -10,3 +10,17 @@ The goal is to build a highly available, secure, scalable cluster with automated
 You have containerized TaskApp (React frontend, Flask backend, PostgreSQL) and deployed it locally. The next step is to migrate this application to production-grade AWS infrastructure using kOps for Kubernetes management and Terraform for infrastructure provisioning.
 
 The goal is to build a highly available, secure, scalable cluster with automated SSL/TLS, Route53 DNS routing, and infrastructure defined entirely in code.
+
+# What This Repo Delivers
+
+    AWS infrastructure provisioned with Terraform
+    Remote state backend in S3 with DynamoDB locking
+    Automatic etcd backups to S3
+    Modular Terraform for VPC, networking, storage, and billing alerts
+    Spot instances for cost savings
+    kOps-managed Kubernetes cluster with private topology and multi-AZ deployment
+    AWS RDS PostgreSQL database for the application data store
+    Ingress-based TLS routing via cert-manager and NGINX
+    AWS Secrets Store CSI driver integration for Kubernetes secrets
+    Automated deployment and teardown scripts in scripts/
+
